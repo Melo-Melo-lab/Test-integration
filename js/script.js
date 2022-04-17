@@ -41,3 +41,27 @@ function lowAgeBtnClick() {
   element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 
 }
+
+function middleAgeBtnClick() {
+    //window.scrollTo({top:300,behavior: 'smooth'});
+
+    var element = document.getElementById("middleage");
+
+    element.scrollIntoView();
+    element.scrollIntoView(true);
+    element.scrollIntoView({ block: "start" });
+    element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+
+}
+
+function highAgeBtnClick() {
+    //window.scrollTo({top:300,behavior: 'smooth'});
+
+    var element = document.getElementById("highage");
+
+    element.scrollIntoView();
+    element.scrollIntoView(true);
+    element.scrollIntoView({ block: "start" });
+    element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+
+}
