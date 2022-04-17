@@ -32,7 +32,6 @@
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
-    -webkit-transition: all 1s;
     -webkit-transition-property: -webkit-transform,height;
     -moz-transition-property: -moz-transform,height;
     transition-property: transform,height;
@@ -119,8 +118,6 @@
     -ms-transform: translate3d(0px, 0px, 0px);
     -webkit-transform: translate3d(0px, 0px, 0px);
     -o-transform: translate3d(0px, 0px, 0px);
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -153,6 +150,8 @@
 /* slider actions */
 .lSAction > a {
     width: 32px;
+    max-width: 32px;
+    min-width: 32px;
     display: block;
     top: 50%;
     height: 32px;
