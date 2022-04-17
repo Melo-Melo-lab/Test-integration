@@ -1,3 +1,4 @@
+// JavaScript Document
 $(document).ready(function () {
   $('#autoWidth').lightSlider({
     autoWidth: true,
@@ -28,7 +29,9 @@ $(document).ready(function () {
   });
 });
 
+
 function lowAgeBtnClick() {
+  //window.scrollTo({top:300,behavior: 'smooth'});
 
   var element = document.getElementById("lowage");
 
